@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.head{
+  background-color: rgb(211, 250, 250);
+  color: rgb(5, 75, 57);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.search-button{
+  background: rgb(52, 135, 190);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
