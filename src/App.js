@@ -1,6 +1,7 @@
 import React, {useEffect, useState } from "react";
-import Recipe from './Recipe'
 import './App.css';
+import Recipe from './Recipe';
+import Footer from './Footer';
 
 const App = () => {
 
@@ -35,13 +36,16 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link> */}
       <div className="head">
-      <h1>The Recipe Project</h1>
+      <h1><b>The Recipe Project</b></h1>
       <h4>by Satwikan</h4>
       </div>
       <form onSubmit={getSearch} className="search-form">
-        <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
+        <input className="search-bar" 
+          type="text" 
+          value={search} 
+          onChange={updateSearch} 
+          placeholder="Type your favorite ingredients..."/>
         <button className="search-button btn btn-info" type="submit"> Find Something! </button>
       </form>
       <div className="recipes">
@@ -55,6 +59,7 @@ const App = () => {
           />
       ))}
       </div>
+      <Footer/>
     </div>
   );
 }
