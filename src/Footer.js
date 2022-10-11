@@ -25,13 +25,13 @@ const Footer = () => {
             <div className="col-xs-3 col-md-6 chat">
                 <h6>Let's Chat</h6>
                 <ul className="footer-links">
-                    <li><a href="https://www.linkedin.com/in/satwik-anmol-1487a3191/"  target="_blank">
+                    <li><a href="https://www.linkedin.com/in/a3191/"  target="_blank">
                         Linkedin
                     </a></li>
-                    <li><a href="https://twitter.com/satwikum"  target="_blank">
+                    <li><a href="https://twitter.com/sm"  target="_blank">
                         Twitter
                     </a></li>
-                    <li><a href="https://github.com/Satwikan"  target="_blank">
+                    <li><a href="https://github.com/n"  target="_blank">
                         Github
                     </a></li>
                 </ul>
